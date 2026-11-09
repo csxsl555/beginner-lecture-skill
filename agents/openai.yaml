@@ -1,0 +1,3 @@
+interface:
+  display_name: "初学者讲义"
+  short_description: "编写深入浅出的完整讲义，新术语首次出现立即解释并检查推导缺步与内容遗漏"
