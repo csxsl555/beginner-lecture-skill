@@ -1,13 +1,14 @@
 # beginner-lecture
 
-为领域初学者编写深入浅出的中文讲义。**每个新专业名词首次出现后立即解释，关键推理不跳步，内容覆盖有依据。**
+为领域初学者编写深入浅出的中文讲义。**正文各章先给摘要思维导图，每个新专业名词首次出现后立即解释，关键推理不跳步，内容覆盖有依据。**
 
 这是一个 Agent Skill，即供 AI 助手按需读取的一组任务指令。它面向讲义、课程章节和学习材料的编写、改写与检查，不是一个独立运行的应用。
 
-A Chinese-first skill for beginner-friendly learning materials: explain new terms in place, preserve reasoning steps, and check coverage against a defined scope.
+A Chinese-first skill for beginner-friendly learning materials: open each teaching chapter with a summary mind map, explain new terms in place, preserve reasoning steps, and check coverage against a defined scope.
 
 ## 它要求 AI 做什么
 
+- **正文各章先给摘要图。** 在每个正文章开头绘制本章思维导图，展示实际讲解的主要内容及分支关系。导读、自测题、答案等辅助部分不加图，章内普通小节也不重复加图。
 - **就地解释新名词。** 中文术语、英文名称、缩写、数学符号和代码标识符都要在首次出现后说明含义；解释中新引入的术语也必须说明。
 - **补齐理解所需的基础。** 根据读者真正已知的内容安排顺序，不默认“大学生”就懂当前学科。
 - **讲清过程。** 从具体问题出发，说明概念、机制、中间推导、完整例子及影响结论的条件。
@@ -15,6 +16,8 @@ A Chinese-first skill for beginner-friendly learning materials: explain new term
 - **先修复再交付。** 顺序检查术语、覆盖、跳步、事实与理解题；只要求审稿时才单独交付修改建议。
 
 术语表可以帮助复习，但不能代替首次出现处的解释。同一学习单元中已经解释过的词不机械重复；可独立阅读的新章节会给出简短回顾。
+
+章首图也遵守同样的术语规则：优先使用通俗短句，新术语在图前或节点中就地解释。支持 Mermaid（用文本描述绘图的工具）的 Markdown 使用 `mindmap` 图；不支持时改用可见的层次图。导图概括正文，不替代正文中的详细解释。
 
 ## 安装
 
@@ -65,6 +68,7 @@ $beginner-lecture 检查下面的讲义。
 | [缓存](examples/cache-lesson.md) | 中文与英文名称就地解释；命中率计算；过期与内容变旧的区别 |
 | [条件概率](examples/probability-lesson.md) | 为什么比较范围改变；符号的含义；材料不足时不能倒推结论 |
 | [二分查找](examples/binary-search-lesson.md) | 新语法说明；逐轮追踪；为什么结束；空列表和重复值 |
+| [两章讲义的结构](examples/chapter-structure-lesson.md) | 两章正文各有章首图；导读、自测题、答案没有图 |
 
 这些示例展示解释方式，不是每个学科都必须套用的固定模板。示例中的价格和读取记录为虚构数据，卡片与查找问题使用文中明确给出的条件。
 
@@ -82,6 +86,7 @@ examples/
   cache-lesson.md
   probability-lesson.md
   binary-search-lesson.md
+  chapter-structure-lesson.md
 tests/verify_examples.py
 ```
 

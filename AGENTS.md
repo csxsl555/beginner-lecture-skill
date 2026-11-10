@@ -16,6 +16,8 @@ Document new file categories here before adding them. Use UTF-8 text, lowercase 
 
 ## Teaching invariants
 
+- Start each substantive teaching chapter with one mind map summarizing that chapter, after its title and any brief explanation needed for a new term in the title. Do not add maps to introductions or reading guides, quizzes, answers or solutions, glossaries, references, or other supporting sections; ordinary subsections are not separate chapters.
+- Map labels must be understandable at first sight and correspond to content actually taught in the chapter. Explain new terms beside their first use, including inside a map when necessary; render the map in the delivery format rather than treating unrendered source as a picture.
 - Explain each newly introduced technical term immediately at its first appearance in a learning unit, including Chinese terms, foreign-language terms, abbreviations, mathematical symbols, and code identifiers.
 - Explanations must not rely on unexplained terminology. A glossary cannot replace a definition beside the first occurrence.
 - Check completeness against an explicit scope or source material. Mentioning a concept does not establish that it has been explained.
