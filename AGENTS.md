@@ -16,6 +16,9 @@ Document new file categories here before adding them. Use UTF-8 text, lowercase 
 
 ## Teaching invariants
 
+- When drafting from a textbook or slide deck, obtain the reader's choice of source order or exam-topic order before assigning any writing. Reuse an explicit choice. Delegate each planned part to a subagent where supported, then check the assembled lecture against the source and the chosen order.
+- Before delivering an assembled multi-chapter lecture, assign a subagent who did not write the chapters to read the complete manuscript in order and revise any gaps or contradictions in its reasoning. Integrate the revisions into the final lecture and reconcile affected maps and question references.
+- When readable reference questions are available, append a topic-to-question index unless the reader opts out. Use the actual paper, question or subquestion, and final teaching location. Identify gaps and uncertain matches. The index is supporting material.
 - Start each substantive teaching chapter with one mind map summarizing that chapter, after its title and any brief explanation needed for a new term in the title. Do not add maps to introductions or reading guides, quizzes, answers or solutions, glossaries, references, or other supporting sections; ordinary subsections are not separate chapters.
 - Map labels must be understandable at first sight and correspond to content actually taught in the chapter. Explain new terms beside their first use, including inside a map when necessary; render the map in the delivery format rather than treating unrendered source as a picture.
 - Explain each newly introduced technical term immediately at its first appearance in a learning unit, including Chinese terms, foreign-language terms, abbreviations, mathematical symbols, and code identifiers.

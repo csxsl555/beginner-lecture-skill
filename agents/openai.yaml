@@ -1,3 +1,3 @@
 interface:
   display_name: "初学者讲义"
-  short_description: "为初学者写讲义，正文各章先绘摘要思维导图，新术语就地解释并检查遗漏"
+  short_description: "按教材或考点分章写讲义，逐章绘图并解释新词，全稿审校并按需对照原题"
